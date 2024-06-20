@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+	Theme Name: Persian Twenty Twenty-Four Child Theme
+	Theme URI: https://wordpress.org/themes/twentytwentyfour/
+	Description: Persian Twenty Twenty-Four Child Theme
+	Author: Amir Hossein Habibi
+	Author URI: https://habibi-dev.com/
+	Template: twentytwentyfour
+	License: GNU General Public License v2 or later
+	License URI: https://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: twentytwentyfour
+	Version: 1.0.0
+*/
+@import "./assets/fonts/vazirmatn/style.css";
+
+body{
+    --wp--preset--font-family--body: "Vazirmatn", sans-serif !important;
+    --wp--preset--font-family--heading: "Vazirmatn", sans-serif !important;
+}
